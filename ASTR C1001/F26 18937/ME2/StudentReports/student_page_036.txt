@@ -1,0 +1,53 @@
+EXAM REPORT                                                       Sheet 36
+================================================================================
+Student:      Cooper, Jamori  (1976845)
+Exam:         2        Version: E
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    33
+Deductions:   -0
+Max cap:      -0
+Final score:  33
+
+Answered:     55/55        Solution key: exam_2_version_E.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+- Student ID 1976545 not on roster, sheet set aside (deduction waived).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  B       B      correct    |     29  A       A      correct
+  2  A       C      WRONG      |     30  B       C      WRONG
+  3  B       A      WRONG      |     31  C       C      correct
+  4  B       B      correct    |     32  B       B      correct
+  5  A       A      correct    |     33  A       B      WRONG
+  6  B       D      WRONG      |     34  A       A      correct
+  7  C       C      correct    |     35  C       B      WRONG
+  8  A       C      WRONG      |     36  C       D      WRONG
+  9  A       A      correct    |     37  A       B      WRONG
+ 10  A       D      WRONG      |     38  A       A      correct
+ 11  B       B      correct    |     39  D       D      correct
+ 12  B       B      correct    |     40  B       A      WRONG
+ 13  C       D      WRONG      |     41  A       A      correct
+ 14  B       B      correct    |     42  B       B      correct
+ 15  A       A      correct    |     43  D       D      correct
+ 16  B       A      WRONG      |     44  A       A      correct
+ 17  B       B      correct    |     45  A       B      WRONG
+ 18  D       D      correct    |     46  A       C      WRONG
+ 19  C       C      correct    |     47  B       B      correct
+ 20  D       D      correct    |     48  A       A      correct
+ 21  A       C      WRONG      |     49  A       A      correct
+ 22  A       A      correct    |     50  C       C      correct
+ 23  A       A      correct    |     51  A       A      correct
+ 24  A       D      WRONG      |     52  D       C      WRONG
+ 25  A       D      WRONG      |     53  C       C      correct
+ 26  A       C      WRONG      |     54  C       A      WRONG
+ 27  D       D      correct    |     55  B       B      correct
+ 28  D       C      WRONG      |
+
