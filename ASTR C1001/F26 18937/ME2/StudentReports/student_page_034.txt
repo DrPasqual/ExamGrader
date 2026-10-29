@@ -1,0 +1,52 @@
+EXAM REPORT                                                       Sheet 34
+================================================================================
+Student:      Vizcarra, Carlos  (2008389)
+Exam:         2        Version: B
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    40
+Deductions:   -0
+Max cap:      -0
+Final score:  40
+
+Answered:     55/55        Solution key: exam_2_version_B.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  A       A      correct    |     29  B       A      WRONG
+  2  D       D      correct    |     30  D       D      correct
+  3  B       C      WRONG      |     31  B       B      correct
+  4  C       C      correct    |     32  C       C      correct
+  5  B       D      WRONG      |     33  A       A      correct
+  6  A       C      WRONG      |     34  B       B      correct
+  7  D       D      correct    |     35  D       D      correct
+  8  B       A      WRONG      |     36  D       D      correct
+  9  D       D      correct    |     37  D       A      WRONG
+ 10  A       A      correct    |     38  C       C      correct
+ 11  B       A      WRONG      |     39  D       B      WRONG
+ 12  C       B      WRONG      |     40  A       B      WRONG
+ 13  A       A      correct    |     41  C       C      correct
+ 14  B       C      WRONG      |     42  B       B      correct
+ 15  C       C      correct    |     43  B       B      correct
+ 16  B       B      correct    |     44  B       B      correct
+ 17  A       A      correct    |     45  A       A      correct
+ 18  A       A      correct    |     46  D       D      correct
+ 19  B       B      correct    |     47  B       A      WRONG
+ 20  C       C      correct    |     48  C       C      correct
+ 21  C       C      correct    |     49  B       B      correct
+ 22  B       C      WRONG      |     50  B       B      correct
+ 23  A       D      WRONG      |     51  B       B      correct
+ 24  A       D      WRONG      |     52  A       A      correct
+ 25  A       A      correct    |     53  C       C      correct
+ 26  C       C      correct    |     54  A       A      correct
+ 27  B       B      correct    |     55  D       D      correct
+ 28  D       D      correct    |
+

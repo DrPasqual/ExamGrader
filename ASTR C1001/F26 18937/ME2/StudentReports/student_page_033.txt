@@ -1,0 +1,52 @@
+EXAM REPORT                                                       Sheet 33
+================================================================================
+Student:      Erby, Ciarrah  (1754431)
+Exam:         2        Version: E
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    30
+Deductions:   -0
+Max cap:      -0
+Final score:  30
+
+Answered:     55/55        Solution key: exam_2_version_E.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  B       B      correct    |     29  A       A      correct
+  2  A       C      WRONG      |     30  B       C      WRONG
+  3  A       A      correct    |     31  A       C      WRONG
+  4  B       B      correct    |     32  A       B      WRONG
+  5  B       A      WRONG      |     33  B       B      correct
+  6  B       D      WRONG      |     34  A       A      correct
+  7  C       C      correct    |     35  D       B      WRONG
+  8  C       C      correct    |     36  C       D      WRONG
+  9  A       A      correct    |     37  A       B      WRONG
+ 10  A       D      WRONG      |     38  C       A      WRONG
+ 11  B       B      correct    |     39  D       D      correct
+ 12  C       B      WRONG      |     40  A       A      correct
+ 13  D       D      correct    |     41  C       A      WRONG
+ 14  B       B      correct    |     42  D       B      WRONG
+ 15  B       A      WRONG      |     43  D       D      correct
+ 16  B       A      WRONG      |     44  B       A      WRONG
+ 17  B       B      correct    |     45  B       B      correct
+ 18  A       D      WRONG      |     46  C       C      correct
+ 19  C       C      correct    |     47  C       B      WRONG
+ 20  D       D      correct    |     48  A       A      correct
+ 21  A       C      WRONG      |     49  D       A      WRONG
+ 22  A       A      correct    |     50  C       C      correct
+ 23  A       A      correct    |     51  A       A      correct
+ 24  D       D      correct    |     52  A       C      WRONG
+ 25  D       D      correct    |     53  C       C      correct
+ 26  A       C      WRONG      |     54  B       A      WRONG
+ 27  D       D      correct    |     55  B       B      correct
+ 28  D       C      WRONG      |
+

@@ -29,7 +29,10 @@ import argparse
 from pathlib import Path
 
 import cv2
-import fitz
+try:
+    import pymupdf as fitz  # PyMuPDF 1.24+
+except ImportError:  # older PyMuPDF only has the "fitz" name
+    import fitz
 import matplotlib.pyplot as plt
 import numpy as np
 

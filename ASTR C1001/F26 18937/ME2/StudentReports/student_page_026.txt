@@ -1,0 +1,54 @@
+EXAM REPORT                                                       Sheet 26
+================================================================================
+Student:      Lopez Ramirez, Maria  (2089100)
+Exam:         [blank]        Version: D
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    24
+Deductions:   -2.5
+Max cap:      -0
+Final score:  21.5
+
+Answered:     55/55        Solution key: exam_2_version_D.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+- Student ID entered by instructor (read as _______) (-2.5).
+- Exam bubble left blank (no deduction).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  C       C      correct    |     29  A       B      WRONG
+  2  D       B      WRONG      |     30  C       B      WRONG
+  3  A       D      WRONG      |     31  A       C      WRONG
+  4  C       C      correct    |     32  D       D      correct
+  5  D       B      WRONG      |     33  A       B      WRONG
+  6  D       C      WRONG      |     34  D       C      WRONG
+  7  A       B      WRONG      |     35  A       D      WRONG
+  8  C       C      correct    |     36  D       B      WRONG
+  9  B       A      WRONG      |     37  A       A      correct
+ 10  B       A      WRONG      |     38  D       B      WRONG
+ 11  A       C      WRONG      |     39  A       A      correct
+ 12  C       C      correct    |     40  D       C      WRONG
+ 13  C       A      WRONG      |     41  D       D      correct
+ 14  A       A      correct    |     42  A       C      WRONG
+ 15  B       A      WRONG      |     43  B       B      correct
+ 16  A       A      correct    |     44  A       A      correct
+ 17  A       A      correct    |     45  A       A      correct
+ 18  A       A      correct    |     46  D       C      WRONG
+ 19  B       D      WRONG      |     47  C       A      WRONG
+ 20  A       A      correct    |     48  A       D      WRONG
+ 21  A       B      WRONG      |     49  B       B      correct
+ 22  A       B      WRONG      |     50  D       D      correct
+ 23  D       D      correct    |     51  D       D      correct
+ 24  D       C      WRONG      |     52  C       C      correct
+ 25  B       C      WRONG      |     53  A       A      correct
+ 26  D       C      WRONG      |     54  D       C      WRONG
+ 27  A       A      correct    |     55  D       D      correct
+ 28  A       D      WRONG      |
+

@@ -1,0 +1,53 @@
+EXAM REPORT                                                       Sheet 28
+================================================================================
+Student:      Ezidiegwu, Stella  (0854732)
+Exam:         1        Version: D
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    41
+Deductions:   -0
+Max cap:      -0
+Final score:  41
+
+Answered:     54/55        Solution key: exam_2_version_D.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+- Exam bubbled as 1, but the answer key is for exam 2 (no deduction).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  C       C      correct    |     29  B       B      correct
+  2  B       B      correct    |     30  D       B      WRONG
+  3  C       D      WRONG      |     31  C       C      correct
+  4  B       C      WRONG      |     32  D       D      correct
+  5  B       B      correct    |     33  C       B      WRONG
+  6  C       C      correct    |     34  C       C      correct
+  7  B       B      correct    |     35  D       D      correct
+  8  C       C      correct    |     36  B       B      correct
+  9  A       A      correct    |     37  A       A      correct
+ 10  A       A      correct    |     38  D       B      WRONG
+ 11  C       C      correct    |     39  A       A      correct
+ 12  C       C      correct    |     40  C       C      correct
+ 13  -       A      WRONG      |     41  D       D      correct
+ 14  A       A      correct    |     42  A       C      WRONG
+ 15  D       A      WRONG      |     43  A       B      WRONG
+ 16  A       A      correct    |     44  A       A      correct
+ 17  A       A      correct    |     45  A       A      correct
+ 18  A       A      correct    |     46  C       C      correct
+ 19  D       D      correct    |     47  A       A      correct
+ 20  A       A      correct    |     48  D       D      correct
+ 21  B       B      correct    |     49  B       B      correct
+ 22  B       B      correct    |     50  D       D      correct
+ 23  A       D      WRONG      |     51  D       D      correct
+ 24  A       C      WRONG      |     52  A       C      WRONG
+ 25  C       C      correct    |     53  B       A      WRONG
+ 26  C       C      correct    |     54  C       C      correct
+ 27  A       A      correct    |     55  D       D      correct
+ 28  C       D      WRONG      |
+

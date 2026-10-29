@@ -1,0 +1,52 @@
+EXAM REPORT                                                       Sheet 20
+================================================================================
+Student:      Garcia Osorio, Kevin  (2237528)
+Exam:         2        Version: C
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    37
+Deductions:   -0
+Max cap:      -0
+Final score:  37
+
+Answered:     55/55        Solution key: exam_2_version_C.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  A       A      correct    |     29  C       C      correct
+  2  B       B      correct    |     30  B       B      correct
+  3  C       C      correct    |     31  A       D      WRONG
+  4  A       A      correct    |     32  A       A      correct
+  5  C       A      WRONG      |     33  A       D      WRONG
+  6  A       A      correct    |     34  C       C      correct
+  7  A       A      correct    |     35  A       A      correct
+  8  A       A      correct    |     36  B       A      WRONG
+  9  B       C      WRONG      |     37  C       C      correct
+ 10  A       B      WRONG      |     38  A       C      WRONG
+ 11  C       C      correct    |     39  D       C      WRONG
+ 12  C       C      correct    |     40  A       A      correct
+ 13  B       B      correct    |     41  D       D      correct
+ 14  C       C      correct    |     42  A       A      correct
+ 15  B       B      correct    |     43  C       A      WRONG
+ 16  C       C      correct    |     44  B       C      WRONG
+ 17  D       C      WRONG      |     45  D       D      correct
+ 18  D       D      correct    |     46  A       B      WRONG
+ 19  A       A      correct    |     47  C       A      WRONG
+ 20  B       B      correct    |     48  D       D      correct
+ 21  A       A      correct    |     49  C       C      correct
+ 22  B       B      correct    |     50  A       B      WRONG
+ 23  B       B      correct    |     51  B       B      correct
+ 24  D       B      WRONG      |     52  A       A      correct
+ 25  D       D      correct    |     53  C       C      correct
+ 26  D       D      correct    |     54  B       A      WRONG
+ 27  C       D      WRONG      |     55  B       D      WRONG
+ 28  C       C      correct    |
+

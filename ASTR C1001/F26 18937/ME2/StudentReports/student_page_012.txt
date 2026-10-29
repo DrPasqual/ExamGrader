@@ -1,0 +1,52 @@
+EXAM REPORT                                                       Sheet 12
+================================================================================
+Student:      Lemelin, Isabelle  (2096270)
+Exam:         2        Version: B
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    43
+Deductions:   -0
+Max cap:      -0
+Final score:  43
+
+Answered:     51/55        Solution key: exam_2_version_B.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  D       A      WRONG      |     29  A       A      correct
+  2  D       D      correct    |     30  B       D      WRONG
+  3  C       C      correct    |     31  B       B      correct
+  4  C       C      correct    |     32  C       C      correct
+  5  D       D      correct    |     33  B       A      WRONG
+  6  C       C      correct    |     34  A       B      WRONG
+  7  D       D      correct    |     35  D       D      correct
+  8  B       A      WRONG      |     36  D       D      correct
+  9  D       D      correct    |     37  A       A      correct
+ 10  A       A      correct    |     38  C       C      correct
+ 11  A       A      correct    |     39  D       B      WRONG
+ 12  B       B      correct    |     40  B       B      correct
+ 13  A       A      correct    |     41  C       C      correct
+ 14  C       C      correct    |     42  B       B      correct
+ 15  C       C      correct    |     43  B       B      correct
+ 16  B       B      correct    |     44  B       B      correct
+ 17  A       A      correct    |     45  C       A      WRONG
+ 18  A       A      correct    |     46  D       D      correct
+ 19  B       B      correct    |     47  A       A      correct
+ 20  C       C      correct    |     48  C       C      correct
+ 21  C       C      correct    |     49  B       B      correct
+ 22  C       C      correct    |     50  B       B      correct
+ 23  B       D      WRONG      |     51  B       B      correct
+ 24  D       D      correct    |     52  -       A      WRONG
+ 25  A       A      correct    |     53  -       C      WRONG
+ 26  C       C      correct    |     54  -       A      WRONG
+ 27  B       B      correct    |     55  -       D      WRONG
+ 28  D       D      correct    |
+

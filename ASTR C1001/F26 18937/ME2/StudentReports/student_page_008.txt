@@ -1,0 +1,53 @@
+EXAM REPORT                                                       Sheet 8
+================================================================================
+Student:      Garcia, Araya  (2201734)
+Exam:         [blank]        Version: B
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    28
+Deductions:   -0
+Max cap:      -0
+Final score:  28
+
+Answered:     53/55        Solution key: exam_2_version_B.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+- Exam bubble left blank (no deduction).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  C       A      WRONG      |     29  A       A      correct
+  2  B       D      WRONG      |     30  D       D      correct
+  3  B       C      WRONG      |     31  D       B      WRONG
+  4  C       C      correct    |     32  A       C      WRONG
+  5  D       D      correct    |     33  A       A      correct
+  6  C       C      correct    |     34  A       B      WRONG
+  7  D       D      correct    |     35  A       D      WRONG
+  8  D       A      WRONG      |     36  D       D      correct
+  9  D       D      correct    |     37  A       A      correct
+ 10  B       A      WRONG      |     38  C       C      correct
+ 11  A       A      correct    |     39  D       B      WRONG
+ 12  B       B      correct    |     40  B       B      correct
+ 13  A       A      correct    |     41  B       C      WRONG
+ 14  C       C      correct    |     42  B       B      correct
+ 15  C       C      correct    |     43  B       B      correct
+ 16  B       B      correct    |     44  B       B      correct
+ 17  B       A      WRONG      |     45  D       A      WRONG
+ 18  B       A      WRONG      |     46  A       D      WRONG
+ 19  B       B      correct    |     47  -       A      WRONG
+ 20  C       C      correct    |     48  D       C      WRONG
+ 21  C       C      correct    |     49  B       B      correct
+ 22  A       C      WRONG      |     50  A       B      WRONG
+ 23  A       D      WRONG      |     51  A       B      WRONG
+ 24  C       D      WRONG      |     52  C       A      WRONG
+ 25  A       A      correct    |     53  B       C      WRONG
+ 26  B       C      WRONG      |     54  D       A      WRONG
+ 27  B       B      correct    |     55  -       D      WRONG
+ 28  D       D      correct    |
+

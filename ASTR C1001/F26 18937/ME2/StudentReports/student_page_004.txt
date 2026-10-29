@@ -1,0 +1,52 @@
+EXAM REPORT                                                       Sheet 4
+================================================================================
+Student:      Tora, Subira  (2118037)
+Exam:         2        Version: E
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    51
+Deductions:   -0
+Max cap:      -1
+Final score:  50
+
+Answered:     55/55        Solution key: exam_2_version_E.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  A       B      WRONG      |     29  A       A      correct
+  2  C       C      correct    |     30  C       C      correct
+  3  A       A      correct    |     31  C       C      correct
+  4  B       B      correct    |     32  B       B      correct
+  5  A       A      correct    |     33  B       B      correct
+  6  D       D      correct    |     34  A       A      correct
+  7  C       C      correct    |     35  B       B      correct
+  8  C       C      correct    |     36  D       D      correct
+  9  A       A      correct    |     37  B       B      correct
+ 10  D       D      correct    |     38  A       A      correct
+ 11  B       B      correct    |     39  D       D      correct
+ 12  B       B      correct    |     40  A       A      correct
+ 13  D       D      correct    |     41  A       A      correct
+ 14  B       B      correct    |     42  C       B      WRONG
+ 15  A       A      correct    |     43  D       D      correct
+ 16  A       A      correct    |     44  A       A      correct
+ 17  B       B      correct    |     45  B       B      correct
+ 18  D       D      correct    |     46  C       C      correct
+ 19  C       C      correct    |     47  B       B      correct
+ 20  D       D      correct    |     48  A       A      correct
+ 21  C       C      correct    |     49  A       A      correct
+ 22  A       A      correct    |     50  C       C      correct
+ 23  A       A      correct    |     51  A       A      correct
+ 24  D       D      correct    |     52  C       C      correct
+ 25  D       D      correct    |     53  C       C      correct
+ 26  A       C      WRONG      |     54  D       A      WRONG
+ 27  D       D      correct    |     55  B       B      correct
+ 28  C       C      correct    |
+

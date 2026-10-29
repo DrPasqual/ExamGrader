@@ -1,0 +1,52 @@
+EXAM REPORT                                                       Sheet 31
+================================================================================
+Student:      Rodia, Jadyn  (1983158)
+Exam:         2        Version: A
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    44
+Deductions:   -0
+Max cap:      -0
+Final score:  44
+
+Answered:     55/55        Solution key: exam_2_version_A.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  D       D      correct    |     29  C       C      correct
+  2  C       C      correct    |     30  D       D      correct
+  3  B       D      WRONG      |     31  B       B      correct
+  4  A       A      correct    |     32  B       B      correct
+  5  A       A      correct    |     33  D       D      correct
+  6  D       D      correct    |     34  C       C      correct
+  7  A       A      correct    |     35  B       B      correct
+  8  A       A      correct    |     36  C       D      WRONG
+  9  B       B      correct    |     37  C       C      correct
+ 10  A       B      WRONG      |     38  D       D      correct
+ 11  D       D      correct    |     39  D       D      correct
+ 12  A       A      correct    |     40  C       C      correct
+ 13  B       B      correct    |     41  C       D      WRONG
+ 14  C       C      correct    |     42  B       B      correct
+ 15  B       B      correct    |     43  C       C      correct
+ 16  B       B      correct    |     44  C       C      correct
+ 17  D       A      WRONG      |     45  A       B      WRONG
+ 18  A       A      correct    |     46  B       B      correct
+ 19  A       A      correct    |     47  A       A      correct
+ 20  D       C      WRONG      |     48  B       B      correct
+ 21  A       A      correct    |     49  D       C      WRONG
+ 22  A       A      correct    |     50  C       C      correct
+ 23  A       A      correct    |     51  C       C      correct
+ 24  B       B      correct    |     52  A       A      correct
+ 25  C       A      WRONG      |     53  D       D      correct
+ 26  A       D      WRONG      |     54  C       C      correct
+ 27  C       A      WRONG      |     55  B       B      correct
+ 28  B       B      correct    |
+

@@ -1,0 +1,52 @@
+EXAM REPORT                                                       Sheet 24
+================================================================================
+Student:      Lin, Amanda  (2051068)
+Exam:         2        Version: E
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    38
+Deductions:   -0
+Max cap:      -0
+Final score:  38
+
+Answered:     55/55        Solution key: exam_2_version_E.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  A       B      WRONG      |     29  A       A      correct
+  2  C       C      correct    |     30  B       C      WRONG
+  3  A       A      correct    |     31  C       C      correct
+  4  B       B      correct    |     32  B       B      correct
+  5  A       A      correct    |     33  B       B      correct
+  6  D       D      correct    |     34  A       A      correct
+  7  C       C      correct    |     35  D       B      WRONG
+  8  C       C      correct    |     36  C       D      WRONG
+  9  A       A      correct    |     37  A       B      WRONG
+ 10  A       D      WRONG      |     38  A       A      correct
+ 11  B       B      correct    |     39  D       D      correct
+ 12  B       B      correct    |     40  A       A      correct
+ 13  C       D      WRONG      |     41  A       A      correct
+ 14  B       B      correct    |     42  B       B      correct
+ 15  A       A      correct    |     43  D       D      correct
+ 16  B       A      WRONG      |     44  A       A      correct
+ 17  D       B      WRONG      |     45  B       B      correct
+ 18  D       D      correct    |     46  D       C      WRONG
+ 19  C       C      correct    |     47  C       B      WRONG
+ 20  D       D      correct    |     48  B       A      WRONG
+ 21  A       C      WRONG      |     49  A       A      correct
+ 22  A       A      correct    |     50  C       C      correct
+ 23  A       A      correct    |     51  A       A      correct
+ 24  C       D      WRONG      |     52  C       C      correct
+ 25  D       D      correct    |     53  C       C      correct
+ 26  C       C      correct    |     54  D       A      WRONG
+ 27  A       D      WRONG      |     55  B       B      correct
+ 28  D       C      WRONG      |
+

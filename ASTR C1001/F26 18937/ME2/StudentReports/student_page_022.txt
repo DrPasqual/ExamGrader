@@ -1,0 +1,53 @@
+EXAM REPORT                                                       Sheet 22
+================================================================================
+Student:      Nguyen, Danny  (2020616)
+Exam:         2        Version: C
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    55
+Deductions:   -2.5
+Max cap:      -2.5
+Final score:  50
+
+Answered:     55/55        Solution key: exam_2_version_C.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+- Version left blank or unreadable, sheet set aside (-2.5).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  A       A      correct    |     29  C       C      correct
+  2  B       B      correct    |     30  B       B      correct
+  3  C       C      correct    |     31  D       D      correct
+  4  A       A      correct    |     32  A       A      correct
+  5  A       A      correct    |     33  D       D      correct
+  6  A       A      correct    |     34  C       C      correct
+  7  A       A      correct    |     35  A       A      correct
+  8  A       A      correct    |     36  A       A      correct
+  9  C       C      correct    |     37  C       C      correct
+ 10  B       B      correct    |     38  C       C      correct
+ 11  C       C      correct    |     39  C       C      correct
+ 12  C       C      correct    |     40  A       A      correct
+ 13  B       B      correct    |     41  D       D      correct
+ 14  C       C      correct    |     42  A       A      correct
+ 15  B       B      correct    |     43  A       A      correct
+ 16  C       C      correct    |     44  C       C      correct
+ 17  C       C      correct    |     45  D       D      correct
+ 18  D       D      correct    |     46  B       B      correct
+ 19  A       A      correct    |     47  A       A      correct
+ 20  B       B      correct    |     48  D       D      correct
+ 21  A       A      correct    |     49  C       C      correct
+ 22  B       B      correct    |     50  B       B      correct
+ 23  B       B      correct    |     51  B       B      correct
+ 24  B       B      correct    |     52  A       A      correct
+ 25  D       D      correct    |     53  C       C      correct
+ 26  D       D      correct    |     54  A       A      correct
+ 27  D       D      correct    |     55  D       D      correct
+ 28  C       C      correct    |
+

@@ -1,0 +1,52 @@
+EXAM REPORT                                                       Sheet 29
+================================================================================
+Student:      Juarez, Claudia  (1972142)
+Exam:         2        Version: D
+
+GRADING SUMMARY
+--------------------------------------------------------------------------------
+Raw score:    53
+Deductions:   -0
+Max cap:      -3
+Final score:  50
+
+Answered:     55/55        Solution key: exam_2_version_D.json
+
+INSTRUCTOR NOTES
+--------------------------------------------------------------------------------
+- Max score is 50 (55 questions, 5 extra credit).
+
+
+QUESTION RESULTS
+--------------------------------------------------------------------------------
+  Q  Answer  Key    Result     |      Q  Answer  Key    Result 
+---------------------------    |    ---------------------------
+  1  C       C      correct    |     29  B       B      correct
+  2  B       B      correct    |     30  B       B      correct
+  3  A       D      WRONG      |     31  B       C      WRONG
+  4  C       C      correct    |     32  D       D      correct
+  5  B       B      correct    |     33  B       B      correct
+  6  C       C      correct    |     34  C       C      correct
+  7  B       B      correct    |     35  D       D      correct
+  8  C       C      correct    |     36  B       B      correct
+  9  A       A      correct    |     37  A       A      correct
+ 10  A       A      correct    |     38  B       B      correct
+ 11  C       C      correct    |     39  A       A      correct
+ 12  C       C      correct    |     40  C       C      correct
+ 13  A       A      correct    |     41  D       D      correct
+ 14  A       A      correct    |     42  C       C      correct
+ 15  A       A      correct    |     43  B       B      correct
+ 16  A       A      correct    |     44  A       A      correct
+ 17  A       A      correct    |     45  A       A      correct
+ 18  A       A      correct    |     46  C       C      correct
+ 19  D       D      correct    |     47  A       A      correct
+ 20  A       A      correct    |     48  D       D      correct
+ 21  B       B      correct    |     49  B       B      correct
+ 22  B       B      correct    |     50  D       D      correct
+ 23  D       D      correct    |     51  D       D      correct
+ 24  C       C      correct    |     52  C       C      correct
+ 25  C       C      correct    |     53  A       A      correct
+ 26  C       C      correct    |     54  C       C      correct
+ 27  A       A      correct    |     55  D       D      correct
+ 28  D       D      correct    |
+

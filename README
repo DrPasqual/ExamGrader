@@ -1,0 +1,17 @@
+To Run ExamGrader program => examgraderRun
+    Expects a SolutionKeys.pdf and StudentAnswers.pdf
+
+Number of Questions Option => --questions ##
+    Assumes 55 questions with 50 questions 5 Extra Credit
+    Defaults include 100 Questions 10 Extra Credit [--questions 110]
+    and 110 Questions 10 Extra Credit [--questions 120]
+
+Rerun Bad Files => --rerun-bad
+    If there are files in BadSheets you can rerun them
+    this will prompt you to fix their issues. Onced
+    fixed it will be added to the rest of the reports
+    and graded.
+
+Run Late Answer Sheet => --add-late [filename]
+    Run a new answer sheet adding it to the current list of 
+    reports and grades. 
