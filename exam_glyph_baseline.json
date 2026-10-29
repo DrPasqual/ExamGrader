@@ -1,0 +1,121 @@
+{
+  "0": {
+    "center_darkness": 0.11345502068014705,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.10764838125191482,
+    "medium_dark_fraction": 0.03355704697986577,
+    "sample_count": 364
+  },
+  "1": {
+    "center_darkness": 0.12393511603860294,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.05736281451056985,
+    "medium_dark_fraction": 0.03355704697986577,
+    "sample_count": 416
+  },
+  "2": {
+    "center_darkness": 0.09100742714077818,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.07235164268344056,
+    "medium_dark_fraction": 0.02348993288590604,
+    "sample_count": 416
+  },
+  "3": {
+    "center_darkness": 0.11122379676968444,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.07331225825291054,
+    "medium_dark_fraction": 0.026845637583892617,
+    "sample_count": 416
+  },
+  "4": {
+    "center_darkness": 0.17192699955958946,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.08479273178998162,
+    "medium_dark_fraction": 0.04697986577181208,
+    "sample_count": 364
+  },
+  "5": {
+    "center_darkness": 0.11824204987170649,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.08836950563916973,
+    "medium_dark_fraction": 0.040268456375838924,
+    "sample_count": 364
+  },
+  "6": {
+    "center_darkness": 0.1274374569163603,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.09945518942440257,
+    "medium_dark_fraction": 0.04697986577181208,
+    "sample_count": 364
+  },
+  "7": {
+    "center_darkness": 0.0987964884440104,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.061263320025275736,
+    "medium_dark_fraction": 0.040268456375838924,
+    "sample_count": 364
+  },
+  "8": {
+    "center_darkness": 0.14870856789981618,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.10739309273514093,
+    "medium_dark_fraction": 0.04697986577181208,
+    "sample_count": 364
+  },
+  "9": {
+    "center_darkness": 0.13379308962354472,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.09619685154335171,
+    "medium_dark_fraction": 0.04697986577181208,
+    "sample_count": 364
+  },
+  "A": {
+    "center_darkness": 0.16849221622242647,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.07708907781862745,
+    "medium_dark_fraction": 0.040268456375838924,
+    "sample_count": 6292
+  },
+  "B": {
+    "center_darkness": 0.13427991680070467,
+    "dark_pixel_fraction": 0.006711409395973154,
+    "darkness_score": 0.12030268650428923,
+    "medium_dark_fraction": 0.0738255033557047,
+    "sample_count": 6292
+  },
+  "C": {
+    "center_darkness": 0.03840433756510417,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.0750888001685049,
+    "medium_dark_fraction": 0.040268456375838924,
+    "sample_count": 6292
+  },
+  "D": {
+    "center_darkness": 0.04935769473805147,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.10388207529105392,
+    "medium_dark_fraction": 0.06711409395973154,
+    "sample_count": 6292
+  },
+  "E": {
+    "center_darkness": 0.129141295189951,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.09267009660309436,
+    "medium_dark_fraction": 0.06711409395973154,
+    "sample_count": 6292
+  },
+  "F": {
+    "center_darkness": 0.08977686264935661,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.06302407059015012,
+    "medium_dark_fraction": 0.019463087248322138,
+    "sample_count": 52
+  },
+  "X": {
+    "center_darkness": 0.12892493154488358,
+    "dark_pixel_fraction": 0.0,
+    "darkness_score": 0.061050121830958946,
+    "medium_dark_fraction": 0.013422818791946308,
+    "sample_count": 52
+  }
+}

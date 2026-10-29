@@ -11,9 +11,9 @@ import *`.
 
 What DOES change, and is redefined below:
 
-  - create_bubble_groups(): the exam has no quiz-number groups, and
-    the version field is named "version_" instead of "quiz_version_"
-    (see exam_detector.VERSION_MAP).
+  - create_bubble_groups(): the exam's own field set -- exam (1, 2, 3,
+    F), version (A-E, X), student ID, answers; no quiz number and no
+    term/year (see exam_detector.EXAM_MAP / VERSION_MAP).
   - measure_bubbles(), prepare_blank_reference(): both call
     detector.* functions, and need that name bound to exam_detector
     instead of scantron_detector.
@@ -66,8 +66,7 @@ DEFAULT_QUESTION_COUNT = 120
 
 
 # =====================================================================
-# Bubble grouping (field set differs from the quiz: no quiz number,
-# "version" instead of "quiz_version")
+# Bubble grouping (exam field set: exam, version, student ID, answers)
 # =====================================================================
 
 def create_bubble_groups(
@@ -76,9 +75,10 @@ def create_bubble_groups(
     """
     Group bubbles that represent one logical answer.
 
-    Same idea as the quiz's create_bubble_groups(), minus the
-    quiz-number groups (exams don't have one) and with "version"
-    instead of "quiz_version" as the field name.
+    Same idea as the quiz's create_bubble_groups(), with the exam's
+    fields: "exam" (1, 2, 3, F), "version" (A-E, X), the seven student
+    ID digits, and the answers. The exam sheet has no quiz number and
+    no term/year.
     """
 
     groups: dict[str, list[str]] = {}
@@ -97,14 +97,8 @@ def create_bubble_groups(
         elif bubble_name.startswith("student_id_"):
             group_name = "_".join(parts[:3])
 
-        elif bubble_name.startswith("term_"):
-            group_name = "term"
-
-        elif bubble_name.startswith("year_first_digit_"):
-            group_name = "year_first_digit"
-
-        elif bubble_name.startswith("year_second_digit_"):
-            group_name = "year_second_digit"
+        elif bubble_name.startswith("exam_"):
+            group_name = "exam"
 
         elif bubble_name.startswith("version_"):
             group_name = "version"
@@ -389,8 +383,8 @@ def process_exam_sheet(
     Process one exam sheet's two already-loaded page images.
 
     Both images must already be loaded as OpenCV BGR images, in
-    order: `front_image` is page 1 (name/term/year/student
-    ID/version/questions 1-40), `back_image` is page 2 (questions
+    order: `front_image` is page 1 (exam/version/student
+    ID/questions 1-40), `back_image` is page 2 (questions
     41-120 only).
 
     Returns one combined grouped-selections dict covering both pages

@@ -65,8 +65,7 @@ def strip_group_prefix(group_name: str, value: Any) -> str:
     """
     Convert values such as:
 
-        term_F          -> F
-        year_2025       -> 2025
+        exam_F          -> F
         answer_071_A    -> A
         version_C       -> C
     """
@@ -392,8 +391,7 @@ def grade_student_answers(
 
 
 # ---------------------------------------------------------------------
-# Student data extraction (field set differs: no quiz number, and
-# "version" instead of "quiz_version")
+# Student data extraction (exam fields: exam + version)
 # ---------------------------------------------------------------------
 
 def extract_student_data(
@@ -414,8 +412,7 @@ def extract_student_data(
 
     return {
         "student_id": student_id,
-        "term": extracted["term"],
-        "year": extracted["year"],
+        "exam": extracted["exam"],
         "version": extracted["version"],
         "question_count": extracted["question_count"],
         "answers": extracted["answers"],
@@ -461,20 +458,21 @@ def format_student_report(
     lines.append("EXAM METADATA")
     lines.append("-" * 80)
     lines.append(
-        f"Term:          {student_data['term'] or '[NOT FOUND]'}"
-    )
-    lines.append(
-        f"Year:          {student_data['year'] or '[NOT FOUND]'}"
+        f"Exam:          {student_data['exam'] or '[NOT FOUND]'}"
     )
     lines.append(
         f"Version:       {student_data['version'] or '[NOT FOUND]'}"
     )
+
+    for warning in student_data.get("warnings", []):
+        lines.append(f"WARNING:       {warning}")
+
     lines.append("")
 
     # Matches the same criterion main() uses to decide whether grading
-    # was even attempted: term/year don't block matching (a run is
-    # assumed to be one exam instance), so only a missing version
-    # means no solution key lookup was possible.
+    # was even attempted: the exam doesn't block matching (a run is
+    # assumed to be one exam), so only a missing version means no
+    # solution key lookup was possible.
     missing_for_matching = [
         field
         for field in student_data["missing_metadata"]
@@ -743,15 +741,19 @@ def parse_args():
     parser.add_argument(
         "--threshold",
         type=float,
-        default=0.02,
-        help="Bubble detection threshold.",
+        default=0.10,
+        help=(
+            "Bubble detection threshold. Default: 0.10 (tuned for "
+            "the 2026-10 sheet with --glyph-baseline; blank bubbles "
+            "score up to ~0.04, light pencil fills 0.10+)."
+        ),
     )
 
     parser.add_argument(
         "--gap",
         type=float,
-        default=0.01,
-        help="Minimum difference between bubble choices.",
+        default=0.05,
+        help="Minimum difference between bubble choices. Default: 0.05",
     )
 
     parser.add_argument(
@@ -978,7 +980,9 @@ def main():
 
             student_name = roster.get(normalized_id, "")
 
-            # Term/year don't block matching -- see
+            student_data["warnings"] = []
+
+            # The exam doesn't block matching -- see
             # make_solution_lookup_key(). Only a missing version does.
             if "version" in student_data["missing_metadata"]:
                 print(
@@ -1004,6 +1008,28 @@ def main():
                         f"Using solution key for sheet {sheet_number}: "
                         f"{solution.get('_filename', lookup_key)}"
                     )
+
+                    # Flag (but still grade) a sheet whose Exam bubble
+                    # disagrees with the key's, or is blank.
+                    key_exam = solution.get("exam")
+                    student_exam = student_data["exam"]
+
+                    if student_exam is None:
+                        student_data["warnings"].append(
+                            "Exam bubble left blank."
+                        )
+                    elif (
+                        key_exam is not None
+                        and str(student_exam).strip().casefold()
+                        != str(key_exam).strip().casefold()
+                    ):
+                        student_data["warnings"].append(
+                            f"Exam bubbled as {student_exam}, but the "
+                            f"answer key is for exam {key_exam}."
+                        )
+
+                    for warning in student_data["warnings"]:
+                        print(f"Sheet {sheet_number}: {warning}")
 
                     grading_result = grade_student_answers(
                         student_data=student_data,

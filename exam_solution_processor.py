@@ -5,12 +5,13 @@ Exam version of the scantron solution processor -- fully standalone,
 no dependency on any of the quiz grading files.
 
 Converts exam_reader output into standardized solution-key data, and
-matches student sheets to the right solution key. Unlike the quiz
-form, an exam has no quiz number and the answer range runs to 120;
-also, a grading run is assumed to be exactly ONE exam instance (never
-"Exam 1" mixed with "Exam 2" or a final in the same run), so the
-solution lookup key is just the version letter -- no
-(quiz_number, quiz_version) pair needed.
+matches student sheets to the right solution key. The exam sheet has
+an Exam field (1, 2, 3 = midterms, F = final) and a Version field
+(A-E, X); the answer range runs to 120. A grading run is assumed to be
+exactly ONE exam (never "Exam 1" mixed with "Exam 2" or a final in the
+same run), so the solution lookup key is just the version letter. The
+exam is still recorded on every key and checked against each student
+sheet by the grader, to catch a sheet from the wrong exam.
 """
 
 from __future__ import annotations
@@ -38,8 +39,7 @@ def suffix_value(group_name: str, value: Any) -> str | None:
 
     Examples:
         answer_071_A -> A
-        term_F -> F
-        year_first_digit_2 -> 2
+        exam_F -> F
         version_B -> B
     """
 
@@ -165,27 +165,15 @@ def extract_solution_data(
     """
     Convert exam_reader output into standardized solution data.
 
-    Same idea as the quiz's extract_solution_data(): no quiz number
-    (exams don't have one), "version" instead of "quiz_version", and
-    the answer loop runs up to 120 questions instead of 20.
+    Same idea as the quiz's extract_solution_data(), with the exam's
+    metadata (exam + version instead of quiz number/version/term/
+    year), and the answer loop runs up to 120 questions instead of 20.
     """
 
-    term = get_group_value(
+    exam = get_group_value(
         selections,
-        "term",
+        "exam",
     )
-
-    year = get_group_value(
-        selections,
-        "year",
-        "academic_year",
-    )
-
-    if year is None:
-        year = get_metadata_digits(
-            selections,
-            "year",
-        )
 
     version = get_group_value(
         selections,
@@ -194,11 +182,8 @@ def extract_solution_data(
 
     missing = []
 
-    if term is None:
-        missing.append("term")
-
-    if year is None:
-        missing.append("year")
+    if exam is None:
+        missing.append("exam")
 
     if version is None:
         missing.append("version")
@@ -228,8 +213,7 @@ def extract_solution_data(
         answers[str(question_number)] = answer
 
     return {
-        "term": term,
-        "year": year,
+        "exam": exam,
         "version": version,
         "question_count": question_count,
         "answers": answers,
@@ -240,13 +224,11 @@ def extract_solution_data(
 def make_solution_filename(solution: dict[str, Any]) -> str:
     """Create the standardized answer-key filename."""
 
-    term = str(solution["term"]).strip().upper()
-    year = str(solution["year"]).strip()
+    exam = str(solution["exam"]).strip().upper()
     version = str(solution["version"]).strip().upper()
 
     for label, value in (
-        ("term", term),
-        ("year", year),
+        ("exam", exam),
         ("version", version),
     ):
         if not value:
@@ -258,8 +240,7 @@ def make_solution_filename(solution: dict[str, Any]) -> str:
             )
 
     return (
-        f"term_{term}_"
-        f"year_{year}_"
+        f"exam_{exam}_"
         f"version_{version}.json"
     )
 
@@ -285,8 +266,7 @@ def save_solution_json(
     output_path = output_directory / make_solution_filename(solution)
 
     data = {
-        "term": solution["term"],
-        "year": solution["year"],
+        "exam": solution["exam"],
         "version": solution["version"],
         "question_count": solution["question_count"],
         "answers": solution["answers"],
@@ -315,8 +295,9 @@ def load_solution_keys(
     instance (e.g. "Exam 1", never mixed with "Exam 2" or a final in
     the same run), so unlike the quiz's (quiz_number, quiz_version)
     pair, version alone is enough to identify which solution key a
-    student's sheet matches. Term and year are still stored in each
-    solution's own data and shown for reference, same as the quiz.
+    student's sheet matches. The exam is stored in each solution's
+    data (when present) so the grader can flag a sheet from the wrong
+    exam.
 
     Values are the corresponding solution dictionaries.
     """
@@ -335,9 +316,9 @@ def load_solution_keys(
 
     solution_keys: dict[str, dict[str, Any]] = {}
 
+    # "exam" is deliberately not required, so keys saved before the
+    # Exam field existed (term/year era) still load.
     required_fields = {
-        "term",
-        "year",
         "version",
         "question_count",
         "answers",
