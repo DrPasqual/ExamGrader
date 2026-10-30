@@ -1,3 +1,6 @@
+import onnxruntime as ort
+ort.set_default_logger_severity(3)  # show errors only, hide warnings
+
 from __future__ import annotations
 
 import argparse
