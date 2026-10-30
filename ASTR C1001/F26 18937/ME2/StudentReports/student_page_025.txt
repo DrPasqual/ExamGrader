@@ -15,7 +15,7 @@ Answered:     55/55        Solution key: exam_2_version_C.json
 INSTRUCTOR NOTES
 --------------------------------------------------------------------------------
 - Max score is 50 (55 questions, 5 extra credit).
-- Version left blank or unreadable, sheet set aside (-2.5).
+- Version entered by instructor (left blank or unreadable) (-2.5).
 
 
 QUESTION RESULTS
